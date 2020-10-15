@@ -1,0 +1,157 @@
+{
+    "field": "ullage",
+	"nouns" : ["filling","fillings", "fills", "fill", "level", "levels", "ullage"],
+	"aux_preps" : ["the", "of", "of the"],
+	"preps" : ["is", "are"],
+	"cm_strs" : ["cm", "cms"],
+    "terminals": {
+        "1 cm": 
+			{
+				"cms" : [0.3, 0.5, 1.0, 1.2]
+			},
+		"1.5 cm": 
+			{
+				"cms" : [1.3, 1.4, 1.5, 1.6, 1.7]
+			},
+		"2 cm": 
+			{
+				"cms" : [1.9, 2.0, 2.2]
+			},
+		"2.5 cm": 
+			{
+				"cms" : [2.3, 2.4, 2.5, 2.6],
+				"aux" : ["1 inch"]
+			},
+		"3 cm": 
+			{
+				"cms" : [2.8, 3.0, 3.1, 3.2]
+			},
+		"3.5 cm": 
+			{
+				"cms" : [3.3, 3.4, 3.5, 3.6, 3.7]
+			},
+		"4 cm": 
+			{
+				"cms" : [4.0, 4.2]
+			},
+		"4.5 cm": 
+			{
+				"cms" : [4.5, 4.7]
+			},
+		"5.0 cm": 
+			{
+				"cms" : [4.75, 4.8, 5.0]
+			},
+		"6.0 cm": 
+			{
+				"cms" : [5.5, 6.0, 6.5, 7.0, 7.5, 8, 8.5, 9.0]
+			},
+		"bn": 
+            {"aux_adj_nouns": [{
+			 					"adj" : ["low", "bottom", "base level", "base", "lower part", "lower", "below"],
+			 					"nouns" : ["neck", "bottleneck"]
+								}	
+								],
+			"aux" : ["bn"]
+			},
+		"ts": 
+            {	"adj" : [],
+			 	"aux_adj_nouns": [{
+			 					"adj" : ["top", "very top", "above"],
+			 					"nouns" : ["shoulder", "sh"]
+								}	
+								],
+				"aux" : ["ts", "vts"]
+			},
+		"vhs": 
+            {	
+				"aux_adj_nouns": [{
+			 					"adj" : ["very high"],
+			 					"nouns" : ["shoulder", "sh"]
+								}	
+								],
+				"aux" : ["vhs"]
+			},
+		"neck": 
+            {	
+				"adj" : ["full neck", "neck fill", "low neck", "neck", "the bottleneck"],
+				"aux_adj_nouns": [{
+			 					"adj" : ["above", "mid low", "low mid", "low", "upper", "high", "full", "high in", "top of", "middle", "mid", "midway", "fill", "full", "filled to", "on", "at", "within", "to", "in", "into", "up to"],
+			 					"nouns" : ["neck", "bottleneck"]
+								}	
+								],
+				"aux" : ["hn", "mn"]
+			},
+		"hs": 
+            {	
+				"aux_adj_nouns": [{
+			 					"adj" : ["high", "high in"],
+			 					"nouns" : ["shoulder", "sh"]
+								}	
+								],
+				"aux" : ["hs"]
+			},
+		"htms": 
+            {	
+				"aux_adj_nouns": [{
+			 					"adj" : ["upper", "upper mid", "upper to mid", "high to mid", "mid upper",  "mid to upper", "mid to high", "upper part", "middle high", "high middle", "upper midddle", "high to middle", "middle to high", "mid high", "high mid"],
+			 					"nouns" : ["shoulder", "sh"]
+								}	
+								],
+				"aux" : ["htms"]
+			},
+		"ms": 
+            {	
+				"adj" : ["shoulder"],
+			 	"aux_adj_nouns": [{
+			 					"adj" : ["mid", "middle", "medium", "at", "on", "in", "into"],
+			 					"nouns" : ["shoulder", "sh"]
+								}	
+								],
+				"aux" : ["ms"]
+			},
+		"lms": 
+            {	
+			 	"aux_adj_nouns": [{
+			 					"adj" : ["mid low", "mid to low", "low to mid", "low mid"],
+			 					"nouns" : ["shoulder", "sh"]
+								}	
+								],
+				"aux" : ["mls", "lms"]
+			},
+		"ls": 
+            {	
+			 	"aux_adj_nouns": [{
+			 					"adj" : ["low", "lower", "below", "below low", "bottom", "below bottom"],
+			 					"nouns" : ["shoulder", "sh"]
+								}
+								],
+				"aux" : ["ls", "bs"]
+			},
+		"high": 
+            {	
+			 	"adj" : ["high"],
+				"aux" : ["hf", "hl"]
+			},
+		"low": 
+            {	
+			 	"adj" : ["low", "slightly low", "lower", "very low"]
+			},
+		"good": 
+            {	
+			 	"adj" : ["good", "normal", "correct"]
+			},
+		"great": 
+            {	
+			 	"adj" : [ "great", "high quality", "very good"]
+			},
+		"full": 
+            {	
+			 	"adj" : ["full", "no missing"]
+			},
+		"excellent": 
+            {	
+			 	"adj" :  ["perfect", "excellent", "in excellent", "almost perfect"]
+			}
+    }
+}
